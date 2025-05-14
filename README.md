@@ -20,7 +20,7 @@ This repository contains two main datasets:
 
 - **Location:** [`financial_phrasebank/data.csv`](/financial_phrasebank/data.csv)
 
-- **Description:** This dataset is a Norwegian translation of the English [Financial PhraseBank](https://huggingface.co/datasets/takala/financial_phrasebank) dataset created by Malo et al. (2014). The original dataset consists of sentences from English financial news, annotated by finance and economics experts according to their sentiment (positive, negative, neutral). This version provides the Norwegian translation of those sentences alongside the original sentiment labels.
+- **Description:** This dataset is a Norwegian translation of the English [Financial PhraseBank](https://huggingface.co/datasets/takala/financial_phrasebank) dataset created by Malo et al. (2014). The translation was done using the [`NorT5 Large`](https://huggingface.co/ltg/nort5-large-en-no-translation) translation model. The original dataset consists of sentences from English financial news, annotated by finance and economics experts according to their sentiment (positive, negative, neutral). This version provides the Norwegian translation of those sentences alongside the original sentiment labels.
 
 - **Purpose:** Primarily useful for training and evaluating sentiment analysis models for Norwegian financial text.
 
@@ -56,4 +56,5 @@ The contents of this repository, including both datasets, are licensed under the
 ## Developer Information
 
 **Developed By:** Magnus Rødseth and Jørgen Johannesen.
+
 **Affiliation:** Norwegian University of Science and Technology (NTNU).
